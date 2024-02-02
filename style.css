@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.countainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-wrap: wrap;
+    margin:2rem 2rem;
+    gap: 1rem;
+ 
+    
+}
+ .sec{
+    width: 10rem;
+    height: 5rem;
+background-color: rgb(249, 244, 244);
+display: flex;
+justify-content: center;
+align-items:center;
+
+
+}
+.boxx{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(230, 221, 221);
+}
+section div{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(235, 54, 235);
+   transition: all linear 2s;
+   opacity: .6;
+  
+}
+   .box1:hover{
+    transform:rotate(50deg)
+   }
+   .box2:hover{
+    transform: scaley(.65);
+   }
+   .box3:hover{
+    transform: scalex(.65);
+   }
+   .box4:hover{
+    transform: scale(1.5);
+   }
+   .box5:hover{
+    transform: scalex(1.65);
+   }
+  .box6:hover{
+    transform: translate(50px, 0);}
+    .box7:hover{
+    transform: translate(50px,25px);
+    }
+    .box8:hover{
+  transform: skew(0deg, 50deg);
+    }
+    .box9:hover{
+        transform: skew( 50deg);
+    }
+    .box10:hover{
+        transform: scaley(1.65);
+    }
+    .box11:hover{
+        transform: translate(0,50px);
+    }
+    .box12:hover{
+        transform: skewY(50deg)scale(2);
+    }
+    .box13:hover{
+        transform: perspective(200px) rotateY(70deg) scalex(1.75); 
+    }
+    .box14:hover{
+        transform: perspective(80px) rotatex(60deg) scalex(1);}
+    .box15:hover{
+transform-origin: top right;
+transform:  rotatez(70deg);
+    }
+    .box16:hover{
+        transform-origin:left bottom;
+        transform:  rotatez(70deg); 
+    }
+    .box17:hover{ transform-origin: bottom;
+        transform: perspective(80px) rotatex(60deg);
+    }
+
+    .box18:hover{ transform-origin: top;
+        transform: perspective(200px) rotatex(55deg);
+    }
+    .box19:hover{ transform-origin: left;
+        transform: perspective(100px) rotateY(55deg);
+    }
+    .box20:hover{
+        transform: translate(60px, 0);
+    }
+    .box21:hover{transform-origin: right;
+        transform: translatex(-60px);
+    }
+    .box22:hover{transform-origin: bottom left;
+        transform:scale(2);
+    }
+    .box23:hover{
+        transform-origin: top right;
+        transform:scale(2);
+    }
+    .box24:hover{
+        transform-origin: right;
+        transform:  rotateY(60deg) perspective(200px); }
+
+        .box25:hover{
+  transform: translate(0 , 60px) scale(1);
+        }
+        .box26:hover{
+            transform: translate(0 ,-60px) scale(1);
+                  }
